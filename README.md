@@ -170,7 +170,7 @@ Lấy về ngày tháng, năm của tháng ngày hiện tại
 SUBSTRING Function: chả về chuỗi con trong chuỗi ban đầu
  
 
-[Note C#.pdf](https://github.com/Jeussu/Self-taught-SQL/files/9122107/Note.C.pdf)
+
 
 
 
