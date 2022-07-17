@@ -3,7 +3,7 @@
 Link to certificate: https://codelearn.io/certification/yzq3nwnh
 ![CodeLearn_certification (1)](https://user-images.githubusercontent.com/94780400/179392296-ea062e80-0f8c-44ad-bc64-d85bbec50284.png)
 Link to certificate: https://codelearn.io/certification/nzk0ntrk
-<h2>if you want see details my report about SQL, Please click to link here: [Note SQL.pdf](https://github.com/Jeussu/Self-taught-SQL/files/9127362/Note.SQL.pdf) or flow this link https://github.com/Jeussu/Self-taught-SQL/blob/main/Note%20SQL.pdf
+<h2>if you want see details my report about SQL, Please click to link here: [Note SQL.pdf](https://github.com/Jeussu/Self-taught-SQL/files/9127362/Note.SQL.pdf) or flow this link https://github.com/Jeussu/Self-taught-SQL/blob/main/Note%20SQL.pdf</h2>
 
 Day1:
 Kiểu dữ liệu trong SQL: 
