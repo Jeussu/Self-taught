@@ -1,0 +1,9 @@
+SELECT * FROM customer
+WHERE first_name LIKE 'J%'
+
+SELECT * FROM customer
+WHERE first_name LIKE 'J%' AND last_name LIKE 'S%'
+
+SELECT * FROM customer
+WHERE first_name NOT LIKE '_her%'
+ORDER BY last_name

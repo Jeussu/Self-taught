@@ -1,0 +1,39 @@
+SELECT * FROM payment;
+
+SELECT customer_id,SUM(amount) FROM payment
+WHERE customer_id NOT in(184,87,477)
+GROUP BY customer_id;
+
+SELECT customer_id,SUM(amount) FROM payment
+GROUP BY customer_id
+HAVING SUM(amount) > 100;
+
+SELECT store_id,COUNT(*) FROM customer
+GROUP BY store_id
+HAVING COUNT(*) > 300;
+
+SELECT * FROM payment;
+
+SELECT customer_id,COUNT(*) FROM payment
+GROUP BY customer_id
+HAVING COUNT(*) >= 40;
+
+SELECT customer_id,SUM(amount) FROM payment
+WHERE staff_id = '2'
+GROUP BY customer_id 
+HAVING SUM(amount) > 100;
+
+SELECT customer_id,SUM(amount)
+FROM payment
+WHERE staff_id = 2
+GROUP BY customer_id
+HAVING SUM(amount) > 110;
+
+SELECT COUNT(*) FROM film
+WHERE title LIKE 'J%';
+
+SELECT first_name,last_name FROM customer
+WHERE first_name LIKE 'E%'
+AND address_id <500
+ORDER BY customer_id DESC
+LIMIT 1;
